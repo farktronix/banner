@@ -4,6 +4,8 @@
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 5D2E20AC1054D7CB009F1874 /* banner */;
 		activeTarget = 8DD76F960486AA7600D96B5E /* banner */;
+		breakpoints = (
+		);
 		codeSenseManager = 5D2E20B51054D7CD009F1874 /* Code sense */;
 		executables = (
 			5D2E20AC1054D7CB009F1874 /* banner */,
@@ -38,6 +40,14 @@
 		userBuildSettings = {
 		};
 	};
+	08FB7796FE84155DC02AAC07 /* banner.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {843, 2030}}";
+			sepNavSelRange = "{259, 0}";
+			sepNavVisRange = "{0, 808}";
+			sepNavWindowFrame = "{{15, 105}, {902, 668}}";
+		};
+	};
 	5D2E20AC1054D7CB009F1874 /* banner */ = {
 		isa = PBXExecutable;
 		activeArgIndices = (
@@ -45,12 +55,13 @@
 		argumentStrings = (
 		);
 		autoAttachOnCrash = 1;
-		breakpointsEnabled = 1;
+		breakpointsEnabled = 0;
 		configStateDict = {
 		};
 		customDataFormattersEnabled = 1;
 		debuggerPlugin = GDBDebugging;
 		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
 		enableDebugStr = 1;
 		environmentEntries = (
 		);
@@ -58,8 +69,12 @@
 		executableUserSymbolLevel = 0;
 		libgmallocEnabled = 0;
 		name = banner;
+		savedGlobals = {
+		};
 		sourceDirectories = (
 		);
+		variableFormatDictionary = {
+		};
 	};
 	5D2E20B41054D7CD009F1874 /* Source Control */ = {
 		isa = PBXSourceControlManager;
